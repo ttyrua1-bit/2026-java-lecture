@@ -1,3 +1,5 @@
+package ch01;
+
 public class OperatorTest {
     static void main() {
         //산술연산  +,-,*,/,%

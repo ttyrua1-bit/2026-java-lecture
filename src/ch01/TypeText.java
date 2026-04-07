@@ -1,3 +1,5 @@
+package ch01;
+
 public class TypeText {
     static void main(){
         //자바에서 타입은 기본 타입 8개

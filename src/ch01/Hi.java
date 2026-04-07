@@ -1,3 +1,5 @@
+package ch01;
+
 public class Hi {
     public static int sum(int x, int y){
         //강타입 언어(자바) 약타입 언어
