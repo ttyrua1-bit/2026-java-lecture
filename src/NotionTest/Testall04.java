@@ -10,9 +10,20 @@ public class Testall04 {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
-        int big;
-        int small;
-        int middle;
+        int center = 0;
+
+
+        if((a >=b && a <=c) || (a >= c && a <= b)){
+            center = a;
+        }else if(b >= a && b <= c || b<=a && b >=c){
+            center = b;
+        }else{
+            center = c;
+        }
+
+        System.out.println("세 숫자 "+a +","+b+","+c+"의 중간은 "+center+"입니다.");
+
+
 
 
 
