@@ -26,8 +26,8 @@ public class ArrayTest {
             System.out.println(names[i]+"==="+actors[i]);
         }
         //배열은 레퍼런스(참조)타입이다. 주소값 내용 공유한다.
-        //주소값만 복사해서 쓰는걸 sharrow coppy얕은 복사라하고
-        //기본타입은 완전복사고
+        //주소값만 복사해서 쓰는걸 sharrow coppy 얕은 복사라하고
+        //기본타입은 완전복사고(아래코드)
         int a = 10;
         int b = a;
         a = 30;
