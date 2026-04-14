@@ -24,8 +24,8 @@ public class ArrayTest02 {
         }
 
         enum Week{월,화,수,목,금,토,일}; // enum 열겨형( 나열하는것)
-        //Week.values = [월,화,수,목,금,토,일]
-        //System.out.println(Week.values()[0];
+        //Week.values = [월,화,수,목,금,토,일]      ******
+        //System.out.println(Week.values()[0]);   ******
 
         for(Week day:Week.values()){
             System.out.println(day);
