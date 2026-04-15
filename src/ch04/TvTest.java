@@ -5,7 +5,7 @@ public class TvTest {
         //메서드 정의
         //tv끄기
         //turnOff();
-        //ty를 끕니다.
+        //tv를 끕니다.
 
         TV myTv = new TV();
         myTv.brand = "samsung";
