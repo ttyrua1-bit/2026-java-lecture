@@ -1,4 +1,4 @@
-package ch07.lang.NotionTest;
+package ch07.lang.notionTest;
 
 public class Test05 {
 
