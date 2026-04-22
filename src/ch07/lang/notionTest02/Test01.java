@@ -6,7 +6,8 @@ public class Test01 {
 
         String[] arr = {"10","20","30","40"};
         int sum = 0;
-
+        //wrapper
+        Integer integer = 10; //autoboxing   (=new Integer 안해도 된다.)
         for(int i =0;i<arr.length;i++){
             sum += Integer.parseInt(arr[i]);
         }
