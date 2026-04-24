@@ -16,7 +16,8 @@ public class Test05 {
         Duration betw = Duration.between(start,last2);
 
         // *******
-        System.out.println("총 근무 시간:"+betw.toHours()+"시간"+betw.minusHours(8).toMinutes()+"분");
+        long num = betw.toHours();
+        System.out.println("총 근무 시간:"+betw.toHours()+"시간"+betw.minusHours(num).toMinutes()+"분");
 
 
 
