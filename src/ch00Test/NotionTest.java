@@ -1,26 +1,24 @@
 package ch00Test;
 
-import java.util.Scanner;
+
+import ch14.stream.operation.IntermediatedOperationMain;
+
+import java.util.List;
 
 public class NotionTest {
     static void main() {
+        List<String> words = List.of("apple","kiwi","banana","fig","grape");
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("2자리 정수 입력(10~99) >>");
-        int num = scanner.nextInt();
+        //int sum = words.stream().mapToInt(Integer::parseInt).filter(s->s>=5).sum();
 
 
-        if(num/10 == num%10){
-            System.out.println("Yes!10의자리와 1의 자리가 같습니다.");
-        }
-        else{
-            System.out.println("No!10의자리와 1의자리가 다릅니다.");
-        }
+
+        System.out.print("길이가 5 이상인 문자열들의 글자 수 합계는: "+sum);
+
 
 
 
     }
-
 
 
 }
